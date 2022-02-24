@@ -21,9 +21,9 @@ const selectElement = document.getElementById('test');
 
 selectElement.addEventListener('change', (event) => {
   var hex_code = document.getElementById("test").value;
-  document.getElementById("out_hex").innerHTML = hex_code;
+  document.getElementById("out_hex").innerHTML = "hex: "+hex_code;
   var rgb = "";
-  rgb += "rgb"+hexToRgb(hex_code).r +",";
+  rgb += "rgb: "+hexToRgb(hex_code).r +",";
   rgb += ""+hexToRgb(hex_code).g +",";
   rgb += ""+hexToRgb(hex_code).b +",";
   document.getElementById("out_rgb").innerHTML = rgb;
