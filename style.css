@@ -1,0 +1,9 @@
+div.prevew{
+  width: 10vw;
+  height: 10vw;
+  background-color: black;
+  float: right;
+  position: fixed;
+  top: 0%;
+  left: 90%;
+}

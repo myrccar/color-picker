@@ -27,5 +27,6 @@ selectElement.addEventListener('change', (event) => {
   rgb += ""+hexToRgb(hex_code).g +",";
   rgb += ""+hexToRgb(hex_code).b +",";
   document.getElementById("out_rgb").innerHTML = rgb;
+  document.getElementById("prevew").style.backgroundColor = hex_code;
 });
  
